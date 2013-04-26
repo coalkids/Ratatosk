@@ -39,7 +39,7 @@ framework ("Ratatosk", function(task)
     task.setVersion("0.1");
     task.setAuthor("Alexandre Wilhelm");
     task.setEmail("alexandre.wilhelmfr@gmail.com");
-    task.setSummary("A usefull layer to communicate with a Ratatosk Server");
+    task.setSummary("A usefull layer to communicate with a REST Server");
     task.setSources(new FileList("*.j", "Ratatosk/*.j", "Categories/*.j"));
     task.setResources(new FileList("Resources/*"));
     task.setInfoPlistPath("Info.plist");
